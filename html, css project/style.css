@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: rgb(0, 0, 0);
+}
+.main {
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/dadb130d-463b-4e5b-b335-038ed912059e/web_tall_panel/PK-en-20241118-TRIFECTA-perspective_ab4d2a47-03af-48bd-878f-474561f94bdc_large.jpg);
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 70vh;
+  position: relative;
+}
+
+/* .main{
+    Rendered size:	1297 × 536 px
+Rendered aspect ratio:	1297∶536
+Intrinsic size:	2000 × 1125 px
+Intrinsic aspect ratio:	16∶9
+File size:	333 kB
+Current source:	https://assets.nflxext.com/ffe/siteui/vlv3/dadb130…ve_ab4d2a47-03af-48bd-878f-474561f94bdc_large.jp
+ } */
+
+.main .box {
+  height: 70vh;
+  width: 100%;
+  opacity: 0.44;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+nav {
+  max-width: 80vw;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 52px;
+}
+nav img {
+  color: red;
+  width: 114px;
+  position: relative;
+  z-index: 10;
+}
+nav button {
+  position: relative;
+  z-index: 10;
+}
+.hero {
+  height: ;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: px;
+}
+.hero> :nth-child(1) {
+  font-weight: 900;
+  font-size: 48px;
+  margin: 245px auto;
+ text-align: center;
+}
+.hero :nth-child(2) {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+
+}
+.hero :nth-child(3) {
+  font-weight: ;
+  font-size: 15px;
+  align-items: center;
+}
